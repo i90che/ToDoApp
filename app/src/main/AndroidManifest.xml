@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.temp.todo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/todo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/todo_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChangePassword"></activity>
+        <activity android:name=".ForgetPass" />
+        <activity android:name=".NewUser" />
+        <activity
+            android:name=".EditToDoItem"
+            android:noHistory="true" />
+        <activity
+            android:name=".AddToDoItem"
+            android:noHistory="true" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
