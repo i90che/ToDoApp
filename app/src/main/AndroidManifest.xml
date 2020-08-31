@@ -9,18 +9,17 @@
         android:roundIcon="@mipmap/todo_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChangePassword"></activity>
-        <activity android:name=".ForgetPass" />
-        <activity android:name=".NewUser" />
+        <activity android:name=".AccountSettingsActivity"/>
+        <activity android:name=".ForgetPassActivity" />
+        <activity android:name=".NewUserActivity" />
         <activity
-            android:name=".EditToDoItem"
+            android:name=".EditToDoItemActivity"
             android:noHistory="true" />
         <activity
-            android:name=".AddToDoItem"
+            android:name=".AddToDoItemActivity"
             android:noHistory="true" />
-        <activity android:name=".TestActivity" />
-        <activity android:name=".SignIn" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

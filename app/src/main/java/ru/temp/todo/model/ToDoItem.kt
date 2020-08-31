@@ -10,8 +10,7 @@ data class ToDoItem(var date: String? = null, var done: String? = null, var item
         parcel.readString(),
         parcel.readString()
 
-    ) {
-    }
+    )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(date)
